@@ -6,16 +6,17 @@ import Testimonial from '../components/Testimonial'
 import Plan from '../components/Plan'
 import Footer from '../components/Footer'
 
+
 const Home = () => {
   return (
-    <>
+    <div className="bg-gradient-animated min-h-screen w-full">
       <Navbar />
       <Hero />
       <AiTools/>
       <Testimonial />
       <Plan/>
       <Footer/>
-    </>
+    </div>
   )
 }
 
